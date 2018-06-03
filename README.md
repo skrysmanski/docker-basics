@@ -1,5 +1,22 @@
 # Docker Cheat Sheet
 
+## Installing Docker
+
+### Windows
+https://store.docker.com/editions/community/docker-ce-desktop-windows
+
+### MacOS
+https://store.docker.com/editions/community/docker-ce-desktop-mac
+
+### Linux
+
+    CHANNEL=stable sh -c "$(curl -fsSL https://get.docker.com)"
+
+### Test Docker
+
+    docker run --rm hello-world
+
+
 ## Running Containers
 Run container in *foreground*:
 
