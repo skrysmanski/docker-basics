@@ -17,6 +17,11 @@ Container name:
 
     docker run --name <containername> ...
 
+Mount host volume:
+
+    docker run -v <abs_dir_host>:<abs_dir_container>
+    docker run -v $(pwd)/<rel_dir_host>:<abs_dir_container> ...
+
 
 ## Building Images
 Build container:
