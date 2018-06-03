@@ -29,7 +29,8 @@ Build container:
     docker build --tag <imagename> .
 
 
-## Get Into Container
+## Debugging and Analysis
+Get into a container
 
     docker exec -ti <container> bash
 
@@ -47,3 +48,7 @@ All running containers:
 All containers (including stopped):
 
     docker ps -a
+
+Volumes/Mounts of a container:
+
+    docker container inspect -f '{{ range .Mounts }}{{ .Name }}:{{ .Destination }} {{ end }}' <container>
