@@ -24,6 +24,11 @@ Build container:
     docker build --tag <imagename> .
 
 
+## Get Into Container
+
+    docker exec -ti <container> bash
+
+
 ## Listing Things
 
 All images:
