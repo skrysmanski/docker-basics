@@ -3,10 +3,12 @@
 ## Installing Docker
 
 ### Windows
-https://hub.docker.com/editions/community/docker-ce-desktop-windows
+
+<https://hub.docker.com/editions/community/docker-ce-desktop-windows>
 
 ### MacOS
-https://hub.docker.com/editions/community/docker-ce-desktop-mac
+
+<https://hub.docker.com/editions/community/docker-ce-desktop-mac>
 
 ### Linux
 
@@ -16,8 +18,8 @@ https://hub.docker.com/editions/community/docker-ce-desktop-mac
 
     docker run --rm hello-world
 
-
 ## Running Containers
+
 Run container in *foreground*:
 
     docker run --rm -ti <imagename>
@@ -39,18 +41,17 @@ Mount host volume:
     docker run -v <abs_dir_host>:<abs_dir_container>
     docker run -v $(pwd)/<rel_dir_host>:<abs_dir_container> ...
 
-
 ## Building Images
+
 Build container:
 
     docker build --tag <imagename> .
 
-
 ## Debugging and Analysis
+
 Get into a container
 
     docker exec -ti <container> bash
-
 
 ## Listing Things
 
