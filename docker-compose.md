@@ -17,6 +17,10 @@ The default name for the **compose file** is:
 
     docker-compose.yml
 
+Reference: <https://docs.docker.com/compose/compose-file/>
+
+Version Changelog: <https://docs.docker.com/compose/compose-file/compose-versioning/#version-3>
+
 ### Example
 
 **Important:** This example file is not supposed to be working. It's just a "random" collection of useful compose directives.
