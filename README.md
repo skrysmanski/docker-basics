@@ -3,10 +3,10 @@
 ## Installing Docker
 
 ### Windows
-https://store.docker.com/editions/community/docker-ce-desktop-windows
+https://hub.docker.com/editions/community/docker-ce-desktop-windows
 
 ### MacOS
-https://store.docker.com/editions/community/docker-ce-desktop-mac
+https://hub.docker.com/editions/community/docker-ce-desktop-mac
 
 ### Linux
 
