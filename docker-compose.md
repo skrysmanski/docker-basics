@@ -31,8 +31,8 @@ services:
       # Exposes port 80 from container on 8080 on host
       - 8080:80
     volumes:
-        # Host mounted volume
-        - ./html:/var/www/html:ro
+      # Host mounted volume
+      - ./html:/var/www/html:ro
     environment:
       WORDPRESS_DB_HOST: db
       WORDPRESS_DB_USER: exampleuser
