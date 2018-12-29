@@ -70,3 +70,12 @@ All containers (including stopped):
 Volumes/Mounts of a container:
 
     docker container inspect -f '{{ range .Mounts }}{{ .Name }}:{{ .Destination }} {{ end }}' <container>
+
+## Cleanup
+
+See: <https://docs.docker.com/config/pruning/>
+
+    docker system prune
+    docker image prune
+    docker container prune
+    docker volume prune
