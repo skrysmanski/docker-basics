@@ -33,7 +33,8 @@ services:
     image: wordpress
     ports:
       # Exposes port 80 from container on 8080 on host
-      - 8080:80
+      # NOTE: Always use strings or the numbers will be interpreted as base 60.
+      - "8080:80"
     volumes:
       # Host mounted volume
       - ./html:/var/www/html:ro
